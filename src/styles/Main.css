@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(../script/HelveticaNeue.ttc);
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .main-page {
+    width: 358px;
+    margin-top: 67px;
+    margin-left: 16px;
+  }
+
+  .main-redberry-icon {
+    display: block;
+    margin: auto;
+    width: 112px;
+    margin-bottom: 117px;
+  }
+
+  .main-image {
+    content: url("../images/Group.png");
+    display: block;
+    margin: auto;
+    width: 269.58px;
+    margin-bottom: 122px;
+  }
+
+  .main-button {
+    display: block;
+    margin: auto;
+    width: 358px;
+    height: 60px;
+    background-color: #62a1eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 18px, 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 801px) {
+  .main-page {
+    width: 781px;
+    margin-top: 79px;
+    margin-left: 570px;
+  }
+
+  .main-redberry-icon {
+    display: block;
+    margin: auto;
+    width: 112px;
+    margin-bottom: 85px;
+  }
+
+  .main-image {
+    content: url("../images/Group 1.png");
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 123px;
+  }
+
+  .main-button {
+    display: block;
+    margin: auto;
+    width: 387px;
+    height: 60px;
+    background-color: #62a1eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 18px, 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 26px;
+    cursor: pointer;
+  }
+}

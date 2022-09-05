@@ -1,0 +1,113 @@
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  .success-page {
+    text-align: center;
+  }
+
+  .success-icon {
+    margin-top: 171px;
+    width: 235px;
+    margin-bottom: -30px;
+  }
+
+  .success-text {
+    margin: auto;
+    width: 164px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    margin-bottom: 159px;
+  }
+
+  .success-list-button {
+    display: block;
+    margin: auto;
+    width: 297px;
+    height: 60px;
+    background-color: #62a1eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 38px;
+    cursor: pointer;
+  }
+
+  .success-main-button {
+    background-color: white;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0089a7;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 801px) {
+  body {
+    margin: 0;
+    background-color: #4a4a4a;
+  }
+
+  .success-page {
+    margin: auto;
+    margin-top: 271px;
+    text-align: center;
+    width: 847px;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .success-icon {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  .success-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 79px;
+  }
+
+  .success-list-button {
+    display: block;
+    margin: auto;
+    width: 297px;
+    height: 60px;
+    background-color: #62a1eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    cursor: pointer;
+  }
+
+  .success-main-button {
+    background-color: white;
+    color: #0089a7;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 44px;
+    padding: 0;
+    cursor: pointer;
+  }
+}
